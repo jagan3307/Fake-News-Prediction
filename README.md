@@ -16,6 +16,8 @@ Real-time prediction system
 Streamlit web application
 Dataset visualization dashboard
 Confidence score display
+
+
 🛠️ Tech Stack
 Programming Language
 Python
@@ -32,6 +34,8 @@ Model Used
 Logistic Regression
 File Handling
 Pickle (model.pkl, vectorizer.pkl)
+
+
 📌 Project Workflow
 Data Collection using CSV dataset
 Text Cleaning and Preprocessing
@@ -41,6 +45,8 @@ Model Evaluation and Accuracy Testing
 Saving Trained Model using Pickle
 Building Interactive Streamlit UI
 Deploying the application online
+
+
 🎯 Project Objective
 
 The main objective of this project is to reduce the spread of misinformation by automatically identifying suspicious or fake news content using Machine Learning techniques and providing users with an easy-to-use interactive platform.

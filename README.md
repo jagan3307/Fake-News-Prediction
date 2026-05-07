@@ -1,35 +1,52 @@
-📰 Fake News Detection + Chatbot
+# 📰 Fake News Detection + Chatbot
 
-Fake News Detection + Chatbot is a Machine Learning and Natural Language Processing (NLP) based web application that classifies news articles or headlines as Fake or Real using supervised learning techniques. The project also includes an AI-powered chatbot built with Gemini API and an interactive Streamlit user interface.
+Fake News Detection + Chatbot is a Machine Learning and Natural Language Processing (NLP) based web application that classifies news articles or headlines as **Fake** or **Real** using supervised learning techniques. The project also includes an AI-powered chatbot built with Gemini API and an interactive Streamlit user interface.
 
-🚀 Features
-Fake vs Real News Prediction
-NLP-based Text Preprocessing
-TF-IDF Feature Extraction
-Machine Learning Classification
-AI Chatbot Integration
-Real-time Prediction System
-Interactive Streamlit Web App
-Dashboard Analytics
-Confidence Score Display
-🛠️ Tech Stack
-Programming Language
-Python
-Machine Learning & Data Processing
-Scikit-learn
-Pandas
-NumPy
-Natural Language Processing
-TF-IDF Vectorizer
-Regular Expressions (Regex)
-Web Framework
-Streamlit
-AI Chatbot
-Google Gemini API
-google-genai
-Model Used
-Logistic Regression
-📂 Project Structure
+---
+
+# 🚀 Features
+
+- Fake vs Real News Prediction  
+- NLP-based Text Preprocessing  
+- TF-IDF Feature Extraction  
+- Machine Learning Classification  
+- AI Chatbot Integration  
+- Real-time Prediction System  
+- Interactive Streamlit Web App  
+- Dashboard Analytics  
+- Confidence Score Display  
+
+---
+
+# 🛠️ Tech Stack
+
+## Programming Language
+- Python  
+
+## Machine Learning & Data Processing
+- Scikit-learn  
+- Pandas  
+- NumPy  
+
+## Natural Language Processing
+- TF-IDF Vectorizer  
+- Regular Expressions (Regex)  
+
+## Web Framework
+- Streamlit  
+
+## AI Chatbot
+- Google Gemini API  
+- google-genai  
+
+## Model Used
+- Logistic Regression  
+
+---
+
+# 📂 Project Structure
+
+```text
 fake_news_project/
 │── app.py
 │── chatbot.py
@@ -37,44 +54,72 @@ fake_news_project/
 │── model.pkl
 │── vectorizer.pkl
 │── requirements.txt
-⚙️ Installation
+```
 
-Clone the repository:
+---
 
+# ⚙️ Installation
+
+## Clone the Repository
+
+```bash
 git clone YOUR_REPOSITORY_LINK
+```
 
-Install dependencies:
+## Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Run the Streamlit application:
+## Run the Streamlit Application
 
+```bash
 streamlit run app.py
-🤖 Gemini API Setup
-Create API key from:
+```
 
-Google AI Studio
+---
 
-Add your API key inside chatbot.py
+# 🤖 Gemini API Setup
+
+## Create API Key
+Generate your API key from Google AI Studio.
+
+## Add API Key in chatbot.py
+
+```python
 client = genai.Client(api_key="YOUR_API_KEY")
-📌 Project Workflow
-Data Collection
-Text Preprocessing
-TF-IDF Feature Extraction
-Machine Learning Model Training
-Fake News Prediction
-AI Chatbot Response Generation
-Streamlit Deployment
-🎯 Project Objective
+```
+
+---
+
+# 📌 Project Workflow
+
+1. Data Collection  
+2. Text Preprocessing  
+3. TF-IDF Feature Extraction  
+4. Machine Learning Model Training  
+5. Fake News Prediction  
+6. AI Chatbot Response Generation  
+7. Streamlit Deployment  
+
+---
+
+# 🎯 Project Objective
 
 The main objective of this project is to identify misleading or false news content using Machine Learning techniques and provide users with an intelligent interactive platform for analyzing and verifying news articles.
 
-🌐 Deployment
+---
+
+# 🌐 Deployment
 
 This project can be deployed using:
 
-Streamlit Community Cloud
-GitHub
-📜 License
+- Streamlit Community Cloud  
+- GitHub  
+
+---
+
+# 📜 License
 
 This project is developed for educational and learning purposes.
